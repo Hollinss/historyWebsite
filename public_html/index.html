@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link href = "styles.css" rel = "stylesheet">
+	<script src = "dropdown.js"></script>
 	<meta charset = "UTF-8">
 	<title>Title</title>
 	<meta name="description" context="This is an example of a meta description">
 </head>
 <body>
-<a href="about.html">About Page</a>
+<div class="about-link">
+	<a href="about.html">About Page</a>
+</div>
+
+<h1>Navigate to different pages using dropdown</h1>
+<div class = "dropdown">
+	<button onclick="dropDown()" class="dropbtn">Pages</button>
+	<div id="pagesDropdown" class="dropdownContent">
+	<a href = "about.html">About</a>
+	</div>
+</div>
+
 
 </body>
 </html>
